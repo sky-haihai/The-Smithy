@@ -11,6 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c594ebbbd7ba37c488d11d97c9ecbd07, type: 3}
   m_Name: iron
   m_EditorClassIdentifier: 
+  icon: {fileID: 0}
   itemName: iron
+  rarity: 0
   description: commonly used in building weapons
+  isPurchasable: 0
   price: 11
