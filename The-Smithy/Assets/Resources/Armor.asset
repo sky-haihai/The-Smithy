@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee74c4300f20c8646a87f4f8b85a49d7, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: 
+  itemName: "G-\u5E03\u7532"
+  index: 1
+  rarity: 3
+  icon: {fileID: 0}
+  description: "\u666E\u901A\u7684\u5E03\u7532"
+  basicDefense: 36
+  price: 800
+  bonusType: 1
+  SetBonus: 1.3

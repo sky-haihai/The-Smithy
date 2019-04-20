@@ -9,11 +9,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c594ebbbd7ba37c488d11d97c9ecbd07, type: 3}
-  m_Name: iron
+  m_Name: Material
   m_EditorClassIdentifier: 
+  itemName: "\u6728\u679D"
+  index: 6
+  rarity: 1
   icon: {fileID: 0}
-  itemName: iron
-  rarity: 0
-  description: commonly used in building weapons
-  isPurchasable: 0
-  price: 11
+  description: "\u5E38\u89C1\u7684\u6B66\u5668\u7D20\u6750"
+  attackAddition: 2
+  defenseAddition: 2
+  speedAddition: 0
+  effect1: 4
+  effect2: 1
+  isPurchasable: 1
+  price: 100
