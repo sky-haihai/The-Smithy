@@ -6,7 +6,7 @@ public class skill_book
 {
     private string name;
     private int no;
-    private List<skill> origin_skill_list = new List<skill>();
+    private List<myskill> origin_skill_list = new List<myskill>();
     public skill_book(string name,int no)
     {
         this.name = name;
@@ -20,11 +20,11 @@ public class skill_book
     {
         return no;
     }
-    public void set_list(List<skill> skills)
+    public void set_list(List<myskill> skills)
     {
         origin_skill_list.AddRange(skills);
     }
-    public List<skill> get_skill_list()
+    public List<myskill> get_skill_list()
     {
         return origin_skill_list;
     }

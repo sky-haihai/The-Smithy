@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class material
+public class mymaterial
 {
     private string name;
     public int no;
@@ -12,7 +12,7 @@ public class material
     private int stat_addition3;
     private int effect_addition1;
     private int effect_addition2;
-    public material(string name, int no, int level, int stat_addition1, int stat_addition2
+    public mymaterial(string name, int no, int level, int stat_addition1, int stat_addition2
         , int stat_addition3, int effect_addition1, int effect_addition2)
     {
         this.name = name;

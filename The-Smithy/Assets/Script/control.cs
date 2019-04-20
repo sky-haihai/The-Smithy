@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class control : MonoBehaviour
 {
-    private material material;
-    private List<material> material_list = new List<material>();
-    private List<weapon> weapon_list = new List<weapon>();
+    private mymaterial mymaterial;
+    private List<mymaterial> material_list = new List<mymaterial>();
+    private List<myweapon> weapon_list = new List<myweapon>();
     private void Awake()
     {
-        //material = GetComponent<material>();
+        //mymaterial = GetComponent<mymaterial>();
     }
     private void Start()
     {
         //以下为测试内容
-        material_list.Add(new material("铁", 2, 1, 0, 0, 0, 0, 0));
-        material_list.Add(new material("木枝", 7, 1, 2, 2, 0, 3, 6));
-        material_list.Add(new material("木枝", 7, 1, 2, 2, 0, 3, 6));
-        material_list.Add(new material("碎布", 8, 1, 0, 4, 2, 5, 6));
-        material_list.Add(new material("碎布", 8, 1, 0, 4, 2, 5, 6));
-        material_list.Add(new material("药草", 16, 2, 0, 6, 0, 15, 8));
-        material_list.Add(new material("药草", 16, 2, 0, 6, 0, 15, 8));
-        material_list.Add(new material("药草", 16, 2, 0, 6, 0, 15, 8));
+        material_list.Add(new mymaterial("铁", 2, 1, 0, 0, 0, 0, 0));
+        material_list.Add(new mymaterial("木枝", 7, 1, 2, 2, 0, 3, 6));
+        material_list.Add(new mymaterial("木枝", 7, 1, 2, 2, 0, 3, 6));
+        material_list.Add(new mymaterial("碎布", 8, 1, 0, 4, 2, 5, 6));
+        material_list.Add(new mymaterial("碎布", 8, 1, 0, 4, 2, 5, 6));
+        material_list.Add(new mymaterial("药草", 16, 2, 0, 6, 0, 15, 8));
+        material_list.Add(new mymaterial("药草", 16, 2, 0, 6, 0, 15, 8));
+        material_list.Add(new mymaterial("药草", 16, 2, 0, 6, 0, 15, 8));
         mix_material(material_list[0], material_list[5], material_list[7], material_list[3], material_list[6]);
         Debug.Log(material_list[3].get_name());
         Debug.Log(material_list[3].get_level());
@@ -30,7 +30,7 @@ public class control : MonoBehaviour
         Debug.Log(material_list[3].get_effect_addition2());
         //
     }
-    public void mix_material(material material1, material material2, material material3, material material4, material material5)
+    public void mix_material(mymaterial material1, mymaterial material2, mymaterial material3, mymaterial material4, mymaterial material5)
     {
         int mixlevel;
         float k=Random.Range(-0.5f,0.5f);
@@ -81,14 +81,14 @@ public class control : MonoBehaviour
                 }
             }
         }
-        material_list.Add(new material("锻造原料", 0, mixlevel, mix_stat_addition1, mix_stat_addition2, mix_stat_addition3, mix_effects[0], mix_effects[1]));
+        material_list.Add(new mymaterial("锻造原料", 0, mixlevel, mix_stat_addition1, mix_stat_addition2, mix_stat_addition3, mix_effects[0], mix_effects[1]));
         material_list.Remove(material1);
         material_list.Remove(material2);
         material_list.Remove(material3);
         material_list.Remove(material4);
         material_list.Remove(material5);
     }
-    void make_weapon(material material,skill_book skill_Book,blueprint blueprint)
+    void make_weapon(mymaterial mymaterial,skill_book skill_Book,myblueprint blueprint)
     {
 
     }

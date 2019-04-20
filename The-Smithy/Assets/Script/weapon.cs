@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class weapon
+public class myweapon
 {
     private string name;
     public int no;
@@ -12,9 +12,9 @@ public class weapon
     private int stat_addition3;
     private int effect_addition1;
     private int effect_addition2;
-    private skill skill;
-    public weapon(string name, int no, int level, int stat_addition1, int stat_addition2
-        , int stat_addition3, int effect_addition1, int effect_addition2,skill skill)
+    private myskill myskill;
+    public myweapon(string name, int no, int level, int stat_addition1, int stat_addition2
+        , int stat_addition3, int effect_addition1, int effect_addition2,myskill myskill)
     {
         this.name = name;
         this.no = no;
@@ -24,7 +24,7 @@ public class weapon
         this.stat_addition3 = stat_addition3;
         this.effect_addition1 = effect_addition1;
         this.effect_addition2 = effect_addition2;
-        this.skill = skill;
+        this.myskill = myskill;
     }
     public string get_name()
     {
@@ -58,8 +58,8 @@ public class weapon
     {
         return effect_addition2;
     }
-    public skill get_skill()
+    public myskill get_skill()
     {
-        return skill;
+        return myskill;
     }
 }

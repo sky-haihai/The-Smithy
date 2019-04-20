@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class blueprint
+public class myblueprint
 {
     private string name;
     private int no;
-    private List<weapon> origin_weapon_list = new List<weapon>();
-    public blueprint(string name, int no)
+    private List<myweapon> origin_weapon_list = new List<myweapon>();
+    public myblueprint(string name, int no)
     {
         this.name = name;
         this.no = no;
@@ -20,11 +20,11 @@ public class blueprint
     {
         return no;
     }
-    public void set_list(List<weapon> weapons)
+    public void set_list(List<myweapon> weapons)
     {
         origin_weapon_list.AddRange(weapons);
     }
-    public List<weapon> get_weapon_list()
+    public List<myweapon> get_weapon_list()
     {
         return origin_weapon_list;
     }
