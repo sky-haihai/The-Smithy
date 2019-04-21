@@ -67,6 +67,7 @@ public class DragMe : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 	{
 		if (m_DraggingIcons[eventData.pointerId] != null)
 			m_DraggingIcons[eventData.pointerId].SetActive(false);
+        ///投影代码
         GraphicRaycaster m_Raycaster;
         PointerEventData m_PointerEventData;
         EventSystem m_EventSystem;
@@ -81,6 +82,7 @@ public class DragMe : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         {
             Debug.Log("Hit " + result.gameObject.name);
         }
+        ///投影代码结束
         /*   Vector3 nowposition = Input.mousePosition;
            Debug.Log(nowposition);
            RaycastHit hit;
