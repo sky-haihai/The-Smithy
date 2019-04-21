@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c594ebbbd7ba37c488d11d97c9ecbd07, type: 3}
+  m_Name: water
+  m_EditorClassIdentifier: 
+  itemName: "\u6C34"
+  index: 8
+  rarity: 1
+  icon: {fileID: 21300000, guid: a29eb0b9f0a81734bb840009db42f7f8, type: 3}
+  description: "\u6C34"
+  attackAddition: 2
+  defenseAddition: 0
+  speedAddition: 3
+  effect1: 0
+  effect2: 5
+  isPurchasable: 1
+  price: 100

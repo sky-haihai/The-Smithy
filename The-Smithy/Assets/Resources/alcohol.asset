@@ -9,17 +9,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c594ebbbd7ba37c488d11d97c9ecbd07, type: 3}
-  m_Name: Material
+  m_Name: alcohol
   m_EditorClassIdentifier: 
-  itemName: "\u6728\u679D"
-  index: 6
+  itemName: "\u9152\u7CBE"
+  index: 10
   rarity: 1
   icon: {fileID: 0}
-  description: "\u5E38\u89C1\u7684\u6B66\u5668\u7D20\u6750"
-  attackAddition: 2
-  defenseAddition: 2
-  speedAddition: 0
-  effect1: 4
-  effect2: 1
-  isPurchasable: 1
+  description: "\u9152\u7CBE"
+  attackAddition: 3
+  defenseAddition: 0
+  speedAddition: 1
+  effect1: 11
+  effect2: 14
+  isPurchasable: 0
   price: 100

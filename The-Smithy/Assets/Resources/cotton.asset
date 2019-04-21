@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c594ebbbd7ba37c488d11d97c9ecbd07, type: 3}
+  m_Name: cotton
+  m_EditorClassIdentifier: 
+  itemName: "\u68C9\u82B1"
+  index: 9
+  rarity: 1
+  icon: {fileID: 0}
+  description: "\u68C9\u82B1"
+  attackAddition: 0
+  defenseAddition: 4
+  speedAddition: 1
+  effect1: 7
+  effect2: 1
+  isPurchasable: 1
+  price: 100

@@ -5,7 +5,8 @@ namespace TheSmithy.Data {
     public class MyItem : ScriptableObject {
 
         [Tooltip("名称")] public string itemName = "";
-        [Range(1, 36)] [Tooltip("编号")] public int index = 1;
+        //这里改过了，从36改到了45
+        [Range(1, 45)] [Tooltip("编号")] public int index = 1;
         [Range(1, 6)] [Tooltip("稀有度")] public int rarity = 1;
 
         [Tooltip("图标")] public Sprite icon;

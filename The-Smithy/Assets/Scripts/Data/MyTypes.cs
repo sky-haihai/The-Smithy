@@ -38,6 +38,8 @@ namespace TheSmithy.Data {
         /// 坚强，防御1.5倍
         /// </summary>
         Strong,
+        ///加入没有效果
+        None,
     }
 
     public enum Skills {

@@ -16,7 +16,10 @@ public class GameController : MonoBehaviour {
         SLBehavior.Save(data);
     }
 
+<<<<<<< Updated upstream:The-Smithy/Assets/Scripts/Controllers/GameController.cs
     private void Update() {
         
     }
+=======
+>>>>>>> Stashed changes:The-Smithy/Assets/Scripts/GameController.cs
 }
