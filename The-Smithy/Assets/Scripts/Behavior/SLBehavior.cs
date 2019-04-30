@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using TheSmithy.Data;
 
-namespace TheSmithy.Data {
+namespace TheSmithy {
     public class SLBehavior : MonoBehaviour {
 
         public static void Save(PlayerData data) {

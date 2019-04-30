@@ -135,6 +135,11 @@ namespace TheSmithy.Data {
         Nuke2,
     }
 
+    public enum CharaType {
+        CloseRange,
+        LongRange,
+    }
+
     public enum WeaponTypes {
         Sword,
         Spear,

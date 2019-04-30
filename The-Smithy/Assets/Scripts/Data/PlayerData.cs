@@ -3,8 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace TheSmithy.Data {
+    /// <summary>
+    /// components for local save
+    /// </summary>
     [System.Serializable]
     public class PlayerData {
+
+        public int stageIndex;
+        public int roomIndex;
 
         #region material list
 
@@ -186,5 +192,7 @@ namespace TheSmithy.Data {
         public int gem = 0;
 
         #endregion
+
+        
     }
 }
